@@ -5,13 +5,20 @@
   margin-inline: auto;
   width: 100%;
 }
+header {
+  right: 0;
+  left: 0;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
 
 nav {
   display: flex;
   height: 75px;
   align-items: center;
   background-color: #ffc017;
-  position: sticky;
+  border-bottom: 2px solid black;
 }
 
 .cont {
@@ -34,7 +41,7 @@ nav {
 }
 .hero {
   background-color: #ffc017;
-  border-top: 2px solid black;
+
   border-bottom: 2px solid black;
   display: flex;
 }
@@ -127,6 +134,7 @@ h3 {
 p {
   color: #857874;
   font-family: Roboto, sans-serif;
+  padding-right: 5px;
 }
 .cardContent img {
   border-radius: 50%;
@@ -142,4 +150,96 @@ p {
 }
 .pCard {
   margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.trendingContent {
+  padding-bottom: 30px;
+  border-bottom: solid #857874 1px;
+}
+.contFlex {
+  display: flex;
+}
+.leftBox {
+  width: 65%;
+}
+.bigBox {
+  margin-top: 60px;
+}
+.imgSpan img {
+  border-radius: 50%;
+  width: 23px;
+}
+.imgSpan {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 5px;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.imgSpan span {
+  font-weight: 600;
+}
+.lTextArea h2 {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: Roboto, sans-serif;
+  padding-bottom: 10px;
+}
+.span2 {
+  color: #857874;
+  font-weight: 400;
+}
+.pContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lBoxContent {
+  display: flex;
+  align-items: end;
+  margin-bottom: 45px;
+}
+.imgLBox img {
+  width: 100%;
+}
+.lTextArea {
+  width: 100%;
+  margin-right: 20px;
+}
+.pCard span {
+  border: 3px solid #f1f2f2;
+  background-color: #f1f2f2;
+  border-radius: 15px;
+}
+aside {
+  width: 35%;
+  margin-left: 80px;
+}
+aside h2 {
+  font-family: Roboto, sans-serif;
+  font-weight: 800;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.buttonDiv {
+  word-spacing: 5px;
+  line-height: 2.5em;
+  padding-bottom: 30px;
+  border-bottom: solid 1px #857874;
+  padding: 5px;
+}
+.buttonDiv span {
+  color: #857874;
+  border: 1px solid #857874;
+  padding: 5px;
+}
+.others {
+  margin-top: 20px;
+  word-spacing: 20px;
+}
+.others a {
+  color: #857874;
+  line-height: 30px;
+  text-decoration: none;
 }
