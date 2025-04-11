@@ -19,13 +19,13 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-.leftB {
+.rightB {
   display: flex;
   align-items: center;
   justify-content: space-around;
   gap: 15px;
 }
-.leftB button {
+.rightB button {
   border: solid black 10px;
   border-radius: 20px;
   background-color: black;
@@ -70,10 +70,76 @@ h1 {
   right: 0;
 }
 .svgM img {
-  height: 330px;
+  height: 360px;
 }
 .n2 span {
   font-size: 22px;
   font-weight: 400;
   font-family: Roboto, sans-serif;
+}
+.trending {
+  display: flex;
+  margin-top: 50px;
+  width: 100%;
+  color: #191919;
+}
+.firstTrending {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.firstTrending span {
+  font-weight: 600;
+  padding-left: 15px;
+}
+span {
+  font-family: Roboto, sans-serif;
+}
+.card {
+  width: 30%;
+  display: flex;
+}
+.number {
+  width: 20%;
+}
+.number span {
+  font-weight: 800;
+  font-size: 30px;
+  color: #e5e6e6;
+}
+.cardContent {
+  width: 80%;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+.cardContent span {
+  font-size: 14px;
+  font-weight: 600;
+}
+h3 {
+  font-family: Roboto, sans-serif;
+  font-weight: 800;
+}
+p {
+  color: #857874;
+  font-family: Roboto, sans-serif;
+}
+.cardContent img {
+  border-radius: 50%;
+  width: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 5px;
+}
+.cardImgC {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.pCard {
+  margin-top: 10px;
 }
